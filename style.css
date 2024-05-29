@@ -1,0 +1,180 @@
+#navbar{
+    background-color: orange;
+}
+
+
+#home .img{
+    object-fit: cover;
+    height: 200px;
+}
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: green;
+    border-bottom: 1px solid green;
+}
+.cards{
+    padding: 10px;
+   
+   
+}
+.carded{
+    background-color: white;
+   
+   
+}
+.carded:nth-child(1){
+    padding: 10px 0;
+    background-color: red;
+}
+#menu ul{
+    text-align: center;
+    text-decoration: none;
+}
+#menu li{
+    display: inline-block;
+    margin: 5px;
+}
+#menu a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+#menu a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.imgs{
+    padding: 4px;
+    border-radius: 10px;
+   
+    
+}
+.imgs img{
+    border: 1px solid black;
+    margin: 0 10px;
+}
+.card img{
+    border: none;
+    object-fit: cover;
+}
+
+.card img:hover{
+    border: none;
+    position: relative;
+    transition: all 3s;
+    object-fit: cover;
+}
+.card a{
+    margin: auto;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+
+}
+.card a:hover{
+    background-color: lightgreen;
+}
+.navbar-nav ul{
+    text-align: center;
+
+}
+form input{
+    outline: none;
+    margin: 10px;
+    padding: 10px 0;
+}
+form input:hover{
+    border: solid red;
+    color: red;
+    transition: 0.3s;
+}
+textarea{
+    position: relative;
+    width: 70%;
+}
+.card-title{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+#btn{
+    
+    margin: 10px auto;
+    
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+/* mobile -viwe */
+@media screen and (max-width: 480px) {
+    
+    h1,p{
+        text-align: center;
+        textarea{
+            position: relative;
+            width: 100%;
+        }
+       
+    
+    }
+    .cards{
+         margin: 0 2px;
+        background-color: aquamarine;
+    }
+    .imgs{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    form input{
+        outline: none;
+      position: relative;
+      width: 100%;
+     
+       
+        
+    }
+  }
+@media screen and (max-width: 768px) {
+   
+    h1,p{
+        text-align: center;
+       
+    
+    }
+    textarea{
+        position: relative;
+        width: 100%;
+        height: 50%;
+
+    }
+    .cards{
+         margin: 0 2px;
+        
+    }
+    .imgs{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static
+    }
+    form input{
+        outline: none;
+        padding: 10px 50px;
+        display: flex;
+        margin: 10px auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+     
+    }
+    
+  }
